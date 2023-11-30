@@ -1,5 +1,11 @@
 plugins {
     id 'java'
+    id "io.freefair.lombok" version "6.5.1"
+}
+
+java {
+    sourceCompatibility = JavaLanguageVersion.of(17)
+    targetCompatibility = JavaLanguageVersion.of(17)
 }
 
 group = 'ru.clevertec'
